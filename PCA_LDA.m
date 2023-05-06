@@ -395,5 +395,3 @@ end
 
 show_subject_image(ooooo, lTrain)
 sgtitle('Training Subjects Projected onto LDA Subspace')
-
-reconstructed_LDA_test = u_new * reduced_dim_top_c_minus_1_eigenvectors' * LDA_basis_reduced';
